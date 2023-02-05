@@ -3,4 +3,4 @@
     description: Checks that commit message begin with a proper prefix
     entry: check-commit-message-format
     language: python
-    stages: [commit, push, manual]
+    stages: [prepare-commit-msg, commit-msg]

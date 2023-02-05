@@ -1,0 +1,6 @@
+-   id: check-commit-message-format
+    name: Check that commit messages follow the required format
+    description: prevents giant files from being committed.
+    entry: check-added-large-files
+    language: python
+    stages: [commit, push, manual]

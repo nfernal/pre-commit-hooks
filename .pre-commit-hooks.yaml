@@ -1,6 +1,12 @@
--   id: check-commit-message-format
-    name: Check commit message format
-    description: Checks that commit message begin with a proper prefix
-    entry: check-commit-message-format
-    language: python
-    stages: [commit-msg]
+- id: check-commit-message-format
+  name: check commit message format
+  description: >
+    Checks that commit message begin with a proper prefix followeded
+    by a space before the message body.  This ensures standards in 
+    commit and message types and provides a foundation for semantic-release
+    to auto increment releases.
+  entry: check-commit-message-format
+  stages: [commit-msg]
+  language: python
+  language_version: python3
+  minimum_pre_commit_version: "2.21"

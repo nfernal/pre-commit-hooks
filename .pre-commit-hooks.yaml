@@ -6,6 +6,7 @@
     commit and message types and provides a foundation for semantic-release
     to auto increment releases.
   entry: check-commit-message-format
+  stages: [commit-msg]
   language: python
   language_version: python3
   minimum_pre_commit_version: "2.21"

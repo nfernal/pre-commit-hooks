@@ -33,7 +33,7 @@ def exception_message() -> str:
 
     """  # noqa: E501
 
-    return sys.argv[1] + exception_message + additional_info_header + additional_info_msg
+    return exception_message + additional_info_header + additional_info_msg
 
 
 def main() -> None:

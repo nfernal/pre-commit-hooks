@@ -9,8 +9,7 @@ Some opinionated hooks for pre-commit
 pre-commit-hooks
 
 
-
-Usage
+Example usage:
 --------
 
 Add this to your `.pre-commit-config.yaml`
@@ -26,4 +25,4 @@ Add this to your `.pre-commit-config.yaml`
 Hooks
 --------
 
--
+- [Check commit message format]((Docs/check_commit_message_format.md))
